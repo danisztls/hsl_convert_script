@@ -7,7 +7,7 @@ const hexToHSL = function(match) {
 };
 
 const options = {
-  files: "tailwind.config.js",
+  files: "colors.scss",
   from: /#[0-9abcdefABCDEF]{3,6}/g,
   to: hexToHSL
 };
